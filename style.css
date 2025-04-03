@@ -1,0 +1,31 @@
+body{
+    font-family: "Unbounded", sans-serif;
+}
+#nav{
+    background-color: #c5bcab;
+    color: #34291f;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#header{
+    background-color: #252525;
+}
+
+#features{
+    font-weight: 300;
+}
+#footer{
+    border-top: 1px solid rgba(64, 64, 64, 0.115);
+    background-color: white;
+    font-weight: 300;
+}
+
+
+#login_image{
+    border-radius: 1rem 0 0 1rem;
+}
+
+a{
+    color: rgb(209, 137, 4);
+}
