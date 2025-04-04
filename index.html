@@ -11,23 +11,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100"> <!--Overall Layout-->
     <main class="flex-shrink-0">
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg" id="nav">
             <div class="container px-5">
                 <a class="navbar-brand" href="index.html"><img src="Images/LogoSVG.svg" alt="Logo" width="45" height="45"> NOMAD CUTS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_info" aria-controls="navbar_info" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbar_info">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">FIND A NOMAD</a></li>
+                        <li class="nav-item"><a class="nav-link" href="find.html">FIND A NOMAD</a></li>
                         <li class="nav-item"><a class="nav-link" href="join.html">JOIN THE NOMADS</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+
         <!-- Header-->
         <header class="py-5" id="header">
             <div class="container px-5">
@@ -37,20 +39,26 @@
                             <h1 class="display-5 fw-bolder text-white mb-2">Change Your Look, Anytime, Anywhere</h1> 
                             <p class="lead fw-normal text-white-50 mb-4">With Nomad Cuts, we bring the haircare to you. </p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                <a class="btn btn-warning btn-lg px-4 me-sm-1" href="#features">Get Started</a>
-                                <a class="btn btn-outline-light btn-lg px-4" href="about.html">Learn More</a>
+                                <a class="btn btn-warning btn-lg px-4 me-sm-1" href="find.html">Get Started</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#features">Learn More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="Images/Barber_Tools.jpg" alt="..." /></div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="Images/Barber_Tools.jpg" alt="Hair scissors, comb, shavers and beard balms/oils" /></div>
                 </div>
             </div>
         </header>
+
         <!-- Features section-->
         <section class="py-5" id="features">
             <div class="container px-5 my-5">
                 <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">A cut above the rest.</h2><div class="col-sm d-none d-xl-block text-center"><img class="img-fluid rounded-3" src="Images/BarberCuttingjpg.jpg" alt="..." /></div></div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h2 class="fw-bolder mb-0">A cut above the rest.</h2>
+                        <div class="col-sm d-none d-xl-block text-center">
+                            <img class="img-fluid rounded-3" src="Images/BarberCuttingjpg.jpg" alt="Male Barber blow drying hair of male client" />
+                        </div>
+                    </div>
                     
                     <div class="col-lg-8">
                         <div class="row gx-5 row-cols-1 row-cols-md-2">
@@ -80,6 +88,7 @@
             </div>
         </section>
     </main>
+
     <!-- Footer-->
     <footer class="py-4 mt-auto" id="footer">
         <div class="container px-5">
@@ -90,6 +99,7 @@
             </div>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
     

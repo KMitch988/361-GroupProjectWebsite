@@ -11,23 +11,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="d-flex flex-column">
+<body class="d-flex flex-column h-100"> <!--Overall Layout-->
     <main class="flex-shrink-0">
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg" id="nav">
             <div class="container px-5">
                 <a class="navbar-brand" href="index.html"><img src="Images/LogoSVG.svg" alt="Logo" width="45" height="45"> NOMAD CUTS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_info" aria-controls="navbar_info" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbar_info">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">FIND A NOMAD</a></li>
+                        <li class="nav-item"><a class="nav-link" href="find.html">FIND A NOMAD</a></li>
                         <li class="nav-item"><a class="nav-link" href="join.html">JOIN THE NOMADS</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        
         <!-- Page content-->
         <section class="py-5">
             <div class="container px-5">
@@ -57,7 +59,7 @@
                                 <div class="pt-1 mb-4">
                                   <button data-mdb-button-init data-mdb-ripple-init class="btn btn-warning btn-lg btn-block" type="button">Login</button>
                                 </div>
-                                <!-- Placeholder hrefs -->
+                                <!-- Placeholder hrefs, may need to change later -->
                                 <a class="small text-muted" href="#!">Forgot password?</a>
                                 <p class="mb-5 pb-lg-2">Don't have an account? <a href="#!">Register here</a></p>
                               </form>
@@ -71,6 +73,7 @@
             </div>
         </section>
     </main>
+
     <!-- Footer-->
     <footer class="py-4 mt-auto" id="footer">
         <div class="container px-5">
@@ -81,6 +84,7 @@
             </div>
         </div>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
