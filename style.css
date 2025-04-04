@@ -31,6 +31,10 @@ a{
     color: rgb(209, 137, 4);
 }
 
-.img-responsive.img-thumbnail{
-    height: auto;
+@media screen and (min-width: 760px) {
+    #photos img{
+        width: auto;
+        height: 500px;
+        object-fit: cover;
+    }
 }
